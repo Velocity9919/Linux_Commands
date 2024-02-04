@@ -5,7 +5,7 @@
 The pwd command is used to display the location of the current working directory.
 
 
-# Syntax:
+Syntax:
 ````
 pwd
 ````
