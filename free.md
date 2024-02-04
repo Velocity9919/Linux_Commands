@@ -33,11 +33,11 @@ free -g     display information in Gigabytes
 
 # free options
 
-# Option	Function
 ````
-free -t	Display total memory
-free -o	Disable buffer adjusted line
-free -s <time>	To update RAM at regular intervals
-free -l	Display high and low memory size statistics
-watch free	Allows iterations
+Option	                                 Function
+free -t	                                  Display total memory
+free -o	                                  Disable buffer adjusted line
+free -s <time>	                          To update RAM at regular intervals
+free -l	                                  Display high and low memory size statistics
+watch free	                              Allows iterations
 ````
