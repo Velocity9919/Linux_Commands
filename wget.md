@@ -25,9 +25,9 @@ sudo apt-get install wget
 ````
 # wget Options
 
+````
 # Option	                                                                             Function
 
-````
 wget <URL>	                                                                           Download single file
 wget -O <fileName> <URL>	                                                             Store with a different file name
 wget --limit-rate=<Numberk> <URL>	                                                     Specify download rate/speed
