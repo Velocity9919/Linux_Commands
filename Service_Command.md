@@ -1,5 +1,5 @@
 # Linux service
-The service command starts, stop and restart a daemon or services by calling the script. Usually all scripts are stored in /etc/init.d directory.
+The service command ````starts, stop and restart```` a daemon or services by calling the script. Usually all scripts are stored in ````/etc/init.d directory````.
 
 It runs a script in as predictable environment as possible.
 
