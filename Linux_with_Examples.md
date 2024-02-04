@@ -15,7 +15,7 @@ pwd
 
 The mkdir command is used to create a new directory under any directory.
 
-# Syntax:
+Syntax:
 ````
 mkdir <directory name>
 ````
@@ -25,7 +25,7 @@ mkdir <directory name>
 
 The rmdir command is used to delete a directory.
 
-# Syntax:
+Syntax:
 ````
 rmdir <directory name>
 ````
@@ -36,7 +36,7 @@ rmdir <directory name>
 
 The ls command is used to display a list of content of a directory.
 
-# Syntax:
+Syntax:
 ````
 ls
 ````
@@ -46,7 +46,7 @@ ls
 
 The cd command is used to change the current directory.
 
-# Syntax:
+Syntax:
 ````
 cd <directory name>
 ````
@@ -58,7 +58,7 @@ cd <directory name>
 
 The touch command is used to create empty files. We can create multiple empty files by executing it once.
 
-# Syntax:
+Syntax:
 ````
 touch <file name>  
 touch <file1>  <file2> ....
@@ -69,7 +69,7 @@ touch <file1>  <file2> ....
 
 The cat command is a multi-purpose utility in the Linux system. It can be used to create a file, display content of the file, copy the content of one file to another file, and more.
 
-# Syntax:
+Syntax:
 ````
 cat [OPTION]... [FILE]..
 ````
@@ -88,7 +88,7 @@ cat <file name>
 
 The rm command is used to remove a file.
 
-# Syntax:
+Syntax:
 ````
 rm <file name>
 ````
@@ -98,7 +98,7 @@ rm <file name>
 
 The cp command is used to copy a file or directory.
 
-# Syntax:
+Syntax:
 
 To copy in the same directory:
 ````
@@ -111,7 +111,7 @@ To copy in a different directory:
 
 The mv command is used to move a file or a directory form one location to another location.
 
-# Syntax:
+Syntax:
 ````
 mv <file name> <directory path>
 ````
@@ -121,7 +121,7 @@ mv <file name> <directory path>
 
 The rename command is used to rename files. It is useful for renaming a large group of files.
 
-# Syntax:
+Syntax:
 ````
 rename 's/old-name/new-name/' files  
 ````
@@ -136,7 +136,7 @@ rename 's/\.txt$/\.pdf/' *.txt
 
 The head command is used to display the content of a file. It displays the first 10 lines of a file.
 
-# Syntax:
+Syntax:
 ````
 head <file name>
 ````
@@ -146,7 +146,7 @@ head <file name>
 
 The tail command is similar to the head command. The difference between both commands is that it displays the last ten lines of the file content. It is useful for reading the error message.
 
-# Syntax:
+Syntax:
 ````
 tail <file name>
 ````
@@ -156,7 +156,7 @@ tail <file name>
 
 The tac command is the reverse of cat command, as its name specified. It displays the file content in reverse order (from the last line).
 
-# Syntax:
+Syntax:
 ````
 tac <file name>
 ````
@@ -176,7 +176,7 @@ In more command, the following keys are used to scroll the page:
 
 ````/ key:```` To search the string.
 
-# Syntax:
+Syntax:
 ````
 more <file name>
 ````
@@ -186,7 +186,7 @@ more <file name>
 
 The less command is similar to the more command. It also includes some extra features such as 'adjustment in width and height of the terminal.' Comparatively, the more command cuts the output in the width of the terminal.
 
-# Syntax:
+Syntax:
 ````
 less <file name>
 ````
@@ -198,7 +198,7 @@ less <file name>
 
 The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
 
-# Syntax:
+Syntax:
 ````
 su <user name>
 ````
@@ -208,7 +208,7 @@ su <user name>
 
 The id command is used to display the user ID (UID) and group ID (GID).
 
-# Syntax:
+Syntax:
 ````
 id
 ````
@@ -218,7 +218,7 @@ id
 
 The useradd command is used to add or remove a user on a Linux server.
 
-# Syntax:
+Syntax:
 ````
 useradd  username
 ````
@@ -228,7 +228,7 @@ useradd  username
 
 The passwd command is used to create and change the password for a user.
 
-# Syntax:
+Syntax:
 ````
 passwd <username>
 ````
@@ -238,7 +238,7 @@ passwd <username>
 
 The groupadd command is used to create a user group.
 
-# Syntax:
+Syntax:
 ````
 groupadd <group name>
 ````
@@ -249,7 +249,7 @@ groupadd <group name>
 
 The cat command is also used as a filter. To filter a file, it is used inside pipes.
 
-# Syntax:
+Syntax:
 ````
 cat <fileName> | cat or tac | cat or tac |. . .
 ````
@@ -259,7 +259,7 @@ cat <fileName> | cat or tac | cat or tac |. . .
 
 The cut command is used to select a specific column of a file. The '-d' option is used as a delimiter, and it can be a space (' '), a slash (/), a hyphen (-), or anything else. And, the '-f' option is used to specify a column number.
 
-# Syntax:
+Syntax:
 ````
 cut -d(delimiter) -f(columnNumber) <fileName>
 ````
@@ -269,7 +269,7 @@ cut -d(delimiter) -f(columnNumber) <fileName>
 
 The grep is the most powerful and used filter in a Linux system. The 'grep' stands for "global regular expression print." It is useful for searching the content from a file. Generally, it is used with the pipe.
 
-# Syntax:
+Syntax:
 ````
 command | grep <searchWord>
 ````
@@ -279,7 +279,7 @@ command | grep <searchWord>
 
 The 'comm' command is used to compare two files or streams. By default, it displays three columns, first displays non-matching items of the first file, second indicates the non-matching item of the second file, and the third column displays the matching items of both files.
 
-# Syntax:
+Syntax:
 ````
 comm <file1> <file2>
 ````
@@ -289,7 +289,7 @@ comm <file1> <file2>
 
 The sed command is also known as stream editor. It is used to edit files using a regular expression. It does not permanently edit files; instead, the edited content remains only on display. It does not affect the actual file.
 
-# Syntax:
+Syntax:
 ````
 command | sed 's/<oldWord>/<newWord>/'
 ````
@@ -299,7 +299,7 @@ command | sed 's/<oldWord>/<newWord>/'
 
 The tee command is quite similar to the cat command. The only difference between both filters is that it puts standard input on standard output and also write them into a file.
 
-# Syntax:
+Syntax:
 ````
 cat <fileName> | tee <newFile> |  cat or tac |.....
 ````
@@ -309,7 +309,7 @@ cat <fileName> | tee <newFile> |  cat or tac |.....
 
 The tr command is used to translate the file content like from lower case to upper case.
 
-# Syntax:
+Syntax:
 ````
 command | tr <'old'> <'new'>
 ````
@@ -319,7 +319,7 @@ command | tr <'old'> <'new'>
 
 The uniq command is used to form a sorted list in which every word will occur only once.
 
-# Syntax:
+Syntax:
 ````
 command <fileName> | uniq
 ````
@@ -329,7 +329,7 @@ command <fileName> | uniq
 
 The wc command is used to count the lines, words, and characters in a file.
 
-# Syntax:
+Syntax:
 ````
 wc <file name>
 ````
@@ -339,7 +339,7 @@ wc <file name>
 
 The od command is used to display the content of a file in different s, such as hexadecimal, octal, and ASCII characters.
 
-# Syntax:
+Syntax:
 ````
 od -b <fileName>      // Octal format  
 od -t x1 <fileName>   // Hexa decimal format  
@@ -351,7 +351,7 @@ od -c <fileName>     // ASCII character format
 
 The sort command is used to sort files in alphabetical order.
 
-# Syntax:
+Syntax:
 ````
 sort <file name>
 ````
@@ -361,7 +361,7 @@ sort <file name>
 
 The gzip command is used to truncate the file size. It is a compressing tool. It replaces the original file by the compressed file having '.gz' extension.
 
-# Syntax:
+Syntax:
 ````
 gzip <file1> <file2> <file3>...
 ````
@@ -371,7 +371,7 @@ gzip <file1> <file2> <file3>...
 
 The gunzip command is used to decompress a file. It is a reverse operation of gzip command.
 
-# Syntax:
+Syntax:
 ````
 gunzip <file1> <file2> <file3>. .
 ````
@@ -389,7 +389,7 @@ The following symbols are used after the find command:
 
 (/) : For root
 
-# Syntax:
+Syntax:
 ````
 find . -name "*.pdf"
 ````
@@ -399,7 +399,7 @@ find . -name "*.pdf"
 
 The locate command is used to search a file by file name. It is quite similar to find command; the difference is that it is a background process. It searches the file in the database, whereas the find command searches in the file system. It is faster than the find command. To find the file with the locates command, keep your database updated.
 
-# Syntax:
+Syntax:
 ````
 locate <file name>
 ````
@@ -409,7 +409,7 @@ locate <file name>
 
 The date command is used to display date, time, time zone, and more.
 
-# Syntax:
+Syntax:
 ````
 date
 ````
@@ -419,7 +419,7 @@ date
 
 The cal command is used to display the current month's calendar with the current date highlighted.
 
-# Syntax:
+Syntax:
 ````
 cal<
 ````
@@ -429,7 +429,7 @@ cal<
 
 The sleep command is used to hold the terminal by the specified amount of time. By default, it takes time in seconds.
 
-# Syntax:
+Syntax:
 ````
 sleep <time>
 ````
@@ -439,7 +439,7 @@ sleep <time>
 
 The time command is used to display the time to execute a command.
 
-# Syntax:
+Syntax:
 ````
 time
 ````
@@ -449,7 +449,7 @@ time
 
 The zcat command is used to display the compressed files.
 
-# Syntax:
+Syntax:
 ````
 zcat <file name>
 ````
@@ -459,7 +459,7 @@ zcat <file name>
 
 The df command is used to display the disk space used in the file system. It displays the output as in the number of used blocks, available blocks, and the mounted directory.
 
-# Syntax:
+Syntax:
 ````
 df
 ````
@@ -469,7 +469,7 @@ df
 
 The mount command is used to connect an external device file system to the system's file system.
 
-# Syntax:
+Syntax:
 ````
 mount -t type <device> <directory>
 ````
@@ -479,7 +479,7 @@ mount -t type <device> <directory>
 
 Linux exit command is used to exit from the current shell. It takes a parameter as a number and exits the shell with a return of status number.
 
-# Syntax:
+Syntax:
 ````
 exit
 ````
@@ -491,7 +491,7 @@ After pressing the ENTER key, it will exit the terminal.
 
 Linux clear command is used to clear the terminal screen.
 
-# Syntax:
+Syntax:
 ````
 clear
 ````
@@ -505,7 +505,7 @@ After pressing the ENTER key, it will clear the terminal screen.
 
 Linux ip command is an updated version of the ipconfig command. It is used to assign an IP address, initialize an interface, disable an interface.
 
-# Syntax:
+Syntax:
 ````
 ip a or ip addr
 ````
@@ -515,7 +515,7 @@ ip a or ip addr
 
 Linux ssh command is used to create a remote connection through the ssh protocol.
 
-# Syntax:
+Syntax:
 ````
 ssh user_name@host(IP/Domain_name)</p>  
 ````
@@ -523,7 +523,7 @@ ssh user_name@host(IP/Domain_name)</p>
 
 The mail command is used to send emails from the command line.
 
-# Syntax:
+Syntax:
 ````
 mail -s "Subject" <recipient address>
 ````
@@ -533,7 +533,7 @@ mail -s "Subject" <recipient address>
 
 The ping command is used to check the connectivity between two nodes, that is whether the server is connected. It is a short form of "Packet Internet Groper."
 
-# Syntax:
+Syntax:
 ````
 ping <destination>
 ````
@@ -543,7 +543,7 @@ ping <destination>
 
 The host command is used to display the IP address for a given domain name and vice versa. It performs the DNS lookups for the DNS Query.
 
-# Syntax:
+Syntax:
 ````
 host <domain name> or <ip address>
 ````
