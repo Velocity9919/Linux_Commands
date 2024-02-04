@@ -13,8 +13,11 @@ Look at the above snapshot, command "uptime" displays output in one line.
 From the left, it shows,
 
 -> currrent system time
+
 -> duration for which system has been running (system is running since 18 minutes)
+
 -> number of users logged in (2 users are logged in)
+
 -> system load average CPU load for past 1, 5 and 15 minutes.
 
 Here, system load averages are the processes which are either in runnable or in uninterruptable state.
