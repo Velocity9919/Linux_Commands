@@ -21,9 +21,9 @@ service script_name stop
 To start a service use the following syntax,
 
 Syntax:
-
+````
 service script_name start  
-
+````
 # restart command
 
 To restart a service use the following syntax,
